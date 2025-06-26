@@ -1,0 +1,31 @@
+{
+  "name": "babylon-bitcoin-staking-signers",
+  "version": "1.0.0",
+  "description": "Signing scripts for Babylon Bitcoin staking PSBTs and delegation transactions",
+  "scripts": {
+    "sign-psbts": "node sign-psbts-and-pop.js",
+    "sign-delegation": "node sign-babylon-delegation.js"
+  },
+  "keywords": [
+    "babylon",
+    "bitcoin",
+    "staking",
+    "psbt",
+    "signing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.0",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.1",
+    "@cosmjs/proto-signing": "^0.32.0",
+    "@cosmjs/stargate": "^0.32.0",
+    "@cosmjs/encoding": "^0.32.0",
+    "cosmjs-types": "^0.9.0",
+    "@babylonlabs-io/babylon-proto-ts": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
