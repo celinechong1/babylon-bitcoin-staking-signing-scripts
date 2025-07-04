@@ -23,7 +23,7 @@
     "@cosmjs/stargate": "^0.32.0",
     "@cosmjs/encoding": "^0.32.0",
     "cosmjs-types": "^0.9.0",
-    "@babylonlabs-io/babylon-proto-ts": "^0.7.0"
+    "@babylonlabs-io/babylon-proto-ts": "^1.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
