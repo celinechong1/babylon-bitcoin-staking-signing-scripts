@@ -36,7 +36,7 @@ node check-account.js
 - `BABYLON_ADDRESS` - From Create Stake Intent API response
 
 ```bash
-npm run sign-psbts
+node sign-psbts-and-pop.js
 ```
 
 Outputs: `signed_slashing_psbt`, `signed_unbonding_slashing_psbt`, `signed_proof_of_possession`
@@ -48,7 +48,7 @@ Outputs: `signed_slashing_psbt`, `signed_unbonding_slashing_psbt`, `signed_proof
 - `BABYLON_PRIVATE_KEY` - Your Babylon private key (64-char hex)
 
 ```bash
-npm run sign-delegation <unsigned_tx_hex> <sequence> <account_number>
+node sign-babylon-delegation.js <unsigned_tx_hex> <sequence> <account_number>
 ```
 
 Outputs: `signed_transaction`
